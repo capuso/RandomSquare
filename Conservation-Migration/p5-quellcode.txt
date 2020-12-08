@@ -15,13 +15,13 @@ function setup() {          //Processing: void setup () {
 function draw() {
   background(b);    //Processing: background(backgroundcolor);
   
-     beginShape();
+  beginShape();
   vertex(0+random(-w,w),0+random(-w,w));
   vertex(0+random(-w,w),600+random(-w,w));
   vertex(600+random(-w,w),600+random(-w,w));
   endShape(CLOSE); 
   
- beginShape();
+  beginShape();
   vertex(600+random(-w,w),0+random(-w,w));
   vertex(0+random(-w,w),600+random(-w,w));
   vertex(600+random(-w,w),600+random(-w,w));
@@ -35,8 +35,7 @@ function draw() {
   vertex(0+random(-w,w),0+random(-w,w));
   endShape(CLOSE);
   
-  
-beginShape();
+  beginShape();
   vertex(0+random(-w,w),0+random(-w,w));
   vertex(0+random(-w,w),600+random(-w,w));
   vertex(600+random(-w,w),600+random(-w,w));
@@ -57,7 +56,7 @@ beginShape();
   vertex(500+random(-w,w),100+random(-w,w));
   endShape(CLOSE);
  
-beginShape();
+  beginShape();
   vertex(200+random(-w,w),200+random(-w,w));
   vertex(200+random(-w,w),400+random(-w,w));
   vertex(400+random(-w,w),400+random(-w,w));
